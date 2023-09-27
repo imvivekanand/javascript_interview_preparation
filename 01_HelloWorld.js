@@ -1,7 +1,4 @@
 const hW = () => {
     return(
-        console.log("Hello World!")
-    );
+        console.log("Hello World!"))
 }
-
-hW();
