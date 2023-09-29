@@ -9,8 +9,6 @@
 //     return(count);
 // }
 
-const caseOccourances = (str, char) => {
-    return(str.split(char).length - 1);
-}
+const caseOccourances = (str, char) => str.split(char).length - 1
 
 caseOccourances("Vivvek", "v")
