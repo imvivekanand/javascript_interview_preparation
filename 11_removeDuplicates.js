@@ -13,7 +13,7 @@ const removeDuplicates = arr => {
 
     //Sol - 2
 
-    console.log(new Set(arr));
+    console.log(Array.from(new Set(arr)));
 }
 
 removeDuplicates([1, 1, 4, 6, 9, 9, true, true, false, true, "vivek", "anand", "vivek"])
